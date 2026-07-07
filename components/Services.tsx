@@ -11,7 +11,7 @@ const strips = [
   {
     imageLeft: false,
     image:
-      'https://images.unsplash.com/photo-1583001931096-959e9a1a6223?w=1200&q=80',
+      'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/485697284_651949637776571_6889009552828889428_n-V6Iukwj0jBcDRTjFBpqrRIBzyV4BJC.jpg',
     imageAlt: 'Extensiones de pestañas aplicadas con precisión',
     label: 'EXTENSIONES DE PESTAÑAS',
     heading: 'Mirada que\nenamora',
