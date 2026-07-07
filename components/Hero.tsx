@@ -62,8 +62,8 @@ export default function Hero() {
         >
           Depilación Láser · Extensiones de Pestañas · Alaciados · Eliminación de Manchas
         </p>
-        
-          href="https://wa.me/524771574824?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita"
+        <a
+href="https://wa.me/524771574824?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-8 py-4 text-white font-medium rounded-md transition-opacity hover:opacity-90 text-base"
