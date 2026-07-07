@@ -1,0 +1,73 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: 'DM Sans', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+
+  /* Brand palette */
+  --color-cream: #faf7f4;
+  --color-sand: #f0e8df;
+  --color-mauve: #9e6b72;
+  --color-espresso: #1c1008;
+
+  --color-background: #faf7f4;
+  --color-foreground: #1c1008;
+  --color-primary: #9e6b72;
+  --color-primary-foreground: #ffffff;
+
+  --color-border: oklch(0.922 0 0);
+  --color-ring: oklch(0.708 0 0);
+  --color-muted: #f0e8df;
+  --color-muted-foreground: #6b5a50;
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.625rem;
+  --radius-xl: 0.875rem;
+  --radius-2xl: 1.25rem;
+}
+
+:root {
+  color-scheme: light;
+  --background: #faf7f4;
+  --foreground: #1c1008;
+  --card: #faf7f4;
+  --card-foreground: #1c1008;
+  --popover: #faf7f4;
+  --popover-foreground: #1c1008;
+  --primary: #9e6b72;
+  --primary-foreground: #ffffff;
+  --secondary: #f0e8df;
+  --secondary-foreground: #1c1008;
+  --muted: #f0e8df;
+  --muted-foreground: #6b5a50;
+  --accent: #f0e8df;
+  --accent-foreground: #1c1008;
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --radius: 0.625rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-[#faf7f4] text-[#1c1008];
+  }
+}
+
+/* Fade-in animation for intersection observer */
+.fade-up {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.75s ease, transform 0.75s ease;
+}
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
