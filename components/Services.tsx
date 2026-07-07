@@ -64,10 +64,10 @@ export default function Services() {
         <article
           key={i}
           className={`flex flex-col ${strip.imageLeft ? 'md:flex-row' : 'md:flex-row-reverse'} fade-up`}
-          style={{ height: 'clamp(340px, 50vw, 500px)' }}
+          style={{ minHeight: 'clamp(400px, 50vw, 500px)' }}
         >
           {/* Image side */}
-          <div className="w-full md:w-1/2 h-64 md:h-full overflow-hidden">
+          <div className="w-full md:w-1/2 h-80 md:h-auto overflow-hidden">
             <img
               src={strip.image}
               alt={strip.imageAlt}

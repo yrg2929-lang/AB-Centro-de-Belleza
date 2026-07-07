@@ -7,7 +7,7 @@ export default function About() {
       aria-label="Quiénes somos"
     >
       {/* Image — 55% */}
-      <div className="w-full md:w-[55%] h-72 md:h-auto overflow-hidden">
+      <div className="w-full md:w-[55%] h-80 md:h-auto overflow-hidden">
         <img
           src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/588763779_855963454041854_3922381813815593376_n-jgXsYL3yNHdOAacEmWvGmNd5V3sYVC.jpg"
           alt="Adriana Morales realizando un tratamiento facial profesional"
